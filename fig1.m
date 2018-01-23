@@ -9,7 +9,6 @@
 [SNR_out01_10,tfr_out01]  = test_down_three_case_noise(1,1,'hamming',32,10);
 [SNR_out02_10,tfr_out02] = test_down_three_case_noise(2,1,'hamming',32,10);
 [SNR_out03_10,tfr_out03] = test_down_three_case_noise(3,1,'hamming',32,10);
-
 close all
 figure()
 B = size(tfr_out1);
