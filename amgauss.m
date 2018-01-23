@@ -9,7 +9,7 @@ function y = amgauss(N,t0,T);
 %	T0 : time center		(default : N/2).
 %	T  : time spreading		(default : 2*sqrt(N)). 
 %	Y  : signal.
-%
+
 %	Examples:
 %	 z=amgauss(160); plot(z);
 %	 z=amgauss(160,90,40); plot(z);
